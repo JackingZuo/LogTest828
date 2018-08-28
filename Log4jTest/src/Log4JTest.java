@@ -10,6 +10,7 @@ public class Log4JTest {
 
     public static void main(String[] args) throws InterruptedException {
 
+
         //使用的默认配置配置信息、有了log4j.properties配置文件则该句代码可以不要
         //   BasicConfigurator.configure();
 
@@ -30,5 +31,6 @@ public class Log4JTest {
         logger.error("错误信息");
 
         logger.fatal("致命信息");
+
     }
 }
