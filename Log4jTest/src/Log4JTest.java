@@ -13,7 +13,7 @@ public class Log4JTest {
 
         BasicConfigurator.configure();
 
-        logger.setLevel(Level.DEBUG);
+        logger.setLevel(Level.INFO);
 
         logger.trace("跟踪信息");
 
@@ -21,7 +21,7 @@ public class Log4JTest {
 
         logger.info("输出信息");
 
-        Thread.sleep(1000);
+        Thread.sleep(3000);
 
         logger.warn("警告信息");
 
