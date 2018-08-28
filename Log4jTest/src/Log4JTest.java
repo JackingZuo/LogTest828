@@ -31,5 +31,6 @@ public class Log4JTest {
         logger.error("错误信息");
 
         logger.fatal("致命信息");
+
     }
 }
